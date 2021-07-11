@@ -6,7 +6,7 @@ const Home = ({ userObj }) => {
   // console.log(userObj);
   const [hweet, setHweet] = useState("");
   const [hweets, setHweets] = useState([]);
-  const [attachment, setAttachment] = useState();
+  const [attachment, setAttachment] = useState("");
   // const getHweets = async () => {
   //   const dbHweets = await dbService.collection("hweets").get();
   //   dbHweets.forEach(document => {
